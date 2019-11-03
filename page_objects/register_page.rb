@@ -1,5 +1,6 @@
 class RegisterPage < SitePrism::Page
   set_url 'http://192.168.56.101'
+
   element :register_btn, :xpath, '//*[@id="account"]/ul/li[2]/a'
   element :login_field, '#user_login'
   element :pass_field, '#user_password'

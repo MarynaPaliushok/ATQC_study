@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'selenium-webdriver'
-gem 'rspec'
 gem 'capybara'
-gem 'site_prism'
 gem 'require_all'
+gem 'rspec'
+gem 'securerandom'
+gem 'selenium-webdriver'
+gem 'site_prism'
