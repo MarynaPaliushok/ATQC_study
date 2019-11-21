@@ -3,6 +3,7 @@ require 'capybara/rspec'
 require 'selenium/webdriver'
 require 'site_prism'
 require 'require_all'
+require 'rest-client'
 
 require_all 'page_objects'
 require_rel '../modules/feature_helper'
