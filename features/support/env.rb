@@ -4,6 +4,7 @@ require 'site_prism'
 require 'securerandom'
 require 'require_all'
 require 'rest-client'
+require 'json'
 
 require_all 'page_objects'
 require_rel '../../modules/feature_helper'

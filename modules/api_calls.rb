@@ -7,10 +7,12 @@ require 'rest-client'
 
 module ApiCalls
   def create_user_via_api(login, mail, password)
+    puts "from Creat user:"
+    puts "login: " + login +"\nmail: " + mail + "\npassword: " + password
     user = {
         'user' => {
             'login' => login,
-            'firstname' => 'Jean-Philippe',
+            'firstname' => login,
             'lastname' => 'Lang',
             'mail' => mail,
             'password' => password
